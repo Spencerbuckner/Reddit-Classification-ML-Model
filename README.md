@@ -46,9 +46,7 @@ For the purpose of this classification evaluation, we are going to be using 3 di
 
 For each respective classifier, we will produce two models using two different vectorizers (**CountVectorizer** & **TfidfVectorizer**). We are employing the use of a pipe and grid search to find the optimal parameters for each respective model. We will have 6 models after our analysis is finished, all with varying statistical scores we can analyze. Let’s start with **Logistic Regression**:
 
-![](Visuals/logregmatrixCVectorizer.png)
-
-![](Visuals/logregmatrixTfidVectorizer.png)
+![](Visuals/logregmatrixCVectorizer.png) ![](Visuals/logregmatrixTfidVectorizer.png)
 
 Our tuned Log Reg models produced fairly high scores for a first go through. With Accuracy scores in both Count and Tfidf of 82.26%/82.54%. Both models produced lower sensitivity scores (Type I errors)
 
@@ -76,7 +74,7 @@ Our stack model did not increase our overall Accuracy or Cross Val compared to o
 
 If we look at some Summary Statistics, we can see some interesting trends:
 
-![](Visuals/StatisticsSummary.png)
+![](Visuals/StatisticsSummary.PNG)
 
 All our models produce something different that it excels at well. Our model with multiple best scores is the Logistic Regression (Cross-Val-Score & Accuracy). If we look at the average distribution of scores, our stack model produced the lowest score Standard Deviation, which is mostly due to the Type I/II Errors being reduced. Our TfidfVec Log Reg model produce on average the highest mean statistical metrics.
 
