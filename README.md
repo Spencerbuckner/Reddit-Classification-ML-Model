@@ -52,17 +52,13 @@ Our tuned Log Reg models produced fairly high scores for a first go through. Wit
 
 Next, we tried our two vectorizers on **K Nearest Neighbors**:
 
-![](Visuals/knnmatrixcountVectorizer.png)
-
-![](Visuals/knnmatrixTfidVectorizer.png)
+![](Visuals/knnmatrixcountVectorizer.png) ![](Visuals/knnmatrixTfidVectorizer.png)
 
 This model was considerably worse than our Log Reg model above but was still better than our Null Hypothesis (50.18%). Accuracy score for Count of 68.49% and Tfid of 57.03% were not great, but still greater than Null. Our most alarming metric for KNN is Sensitivity which produced ~40% score for both vectorizers. Our only bright spot with KNN, was that the CountVectorizer produced the highest Specificity score of any of our models (95.38%).
 
 Our final model that we are analyzing our vectorizers on is **Random Forests**:
 
-![](Visuals/rfmatrixcountVectorizer.png)
-
-![](Visuals/rfmatrixTfidVectorizer.png)
+![](Visuals/rfmatrixcountVectorizer.png) ![](Visuals/rfmatrixTfidVectorizer.png)
 
 Our random forests produced more balanced scores in range to our logistic regression. The forests also struggled with Sensitivity but produced the highest precision score in all our models (91.19%). Accuracy scores for both vectorizers are very close being 83.77% (Count) and 83.36% (Tfidf). Scores for Sensitivity (Type I) also struggled along with the other models but was in line with our Logistic Regression Scores.
 
