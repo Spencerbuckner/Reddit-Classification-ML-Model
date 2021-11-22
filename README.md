@@ -2,7 +2,7 @@
 
 # Problem Statement:
 
-For this project, I am exploring the text of posts in two semi related subreddits, and whether several different classifiers can correctly group posts into their respective buckets. I will be looking at posts from TalesFromRetail & TalesFromTechSupport. I chose these two subreddits because I wanted something relatively similar (both deal with talking about their jobs) but different enough that their will be some signal to the noise for classification purposes.
+For this project, I am exploring the text of posts in two semi related subreddits, and whether several different classifiers can correctly group posts into their respective buckets. I will be looking at posts from TalesFromRetail & TalesFromTechSupport. I chose these two subreddits because I wanted something relatively similar (both deal with talking about their jobs) but different enough that their will be some signal to the noise for classification purposes. If we can find a classification model that is statistically significant, we can then take the model into other areas of interest and explore furthur. Big Picture, text classifiers are used to help standardize the web, so the better our classifier, the better we could theoretically create a search engine or other word classification systems. 
 
 # Data Collection/Cleaning:
 
