@@ -6,7 +6,7 @@ For this project, I am exploring the text of posts in two semi related subreddit
 
 # Data Collection/Cleaning:
 
-Since we need the data straight from Reddit itself, I web scraped ~1500 title/selftext posts from each respective subreddit using Pushshift API. Overall, the data was generally good, in the roughly 3000 posts I had collected, roughly 2% produced null values, so those rows were deleted. This left a distribution by subreddit in our data frame of 50.18% - TalesFromTechSupport and 49.81% - TalesFromRetail. The higher of the two will be our Null Hypotheses for all future comparisons.
+Since we need the data straight from Reddit itself, I web scraped ~1500 title/selftext posts from each respective subreddit using Pushshift API. Overall, the data was generally good, in the roughly 3000 posts I had collected, roughly 2% produced null values, so those rows were deleted. This left a distribution by subreddit in our data frame of 50.18% - TalesFromTechSupport and 49.81% - TalesFromRetail. The higher of the two will be our Baseline Accuracy for all future comparisons.
 
 # Exploratory Data Analysis:
 
